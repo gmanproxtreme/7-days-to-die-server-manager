@@ -73,6 +73,7 @@
           _csrf: window.SAILS_LOCALS._csrf,
         },
       },
+      lengthMenu: [[10, 50, 100, -1], [10, 50, 100, "All"]],
       fixedHeader: true,
       responsive: true,
       serverSide: true,
